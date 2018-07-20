@@ -27,4 +27,14 @@
     $('.js-popup-open').on('click', function() {
         $('.popup').fadeIn();
     });
+    function smoothScroll(e) {
+        let tar = '#'+ $(e.target).attr('data-target');
+        $('html, body').animate({scrollTop:$(tar).position().top - 120}, 1000);
+    }
+    $('.yellow-btn').click(function(e){
+        smoothScroll(e)
+    });
+    $('.js-to-cost').click(function(e){
+        smoothScroll(e)
+    });
 })(jQuery);

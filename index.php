@@ -75,12 +75,13 @@
                     Что Делает Возможным Экспоненциальный Рост Бизнеса 10Х Быстро
                 </div>
                 <div class="text-center header-button">
-                    <button class="primary-btn js-popup-open">Зарегистрироваться</button>
+                    <button class="primary-btn yellow-btn mr-md-3 mb-3 mb-md-0" data-target="message">Узнать подробнее</button>
+                    <button class="primary-btn js-to-cost" data-target="cost">Зарегистрироваться</button>
                 </div>
             </div>
         </div>
     </header>
-    <section class="message">
+    <section class="message" id="message">
         <div class="container">
             <div class="row">
                 <div class="col-lg-10 offset-lg-1">
@@ -639,11 +640,11 @@
                 </div>
             </div>
         </section>
-        <section class="cost position-relative">
+        <section class="cost position-relative" id="cost">
             <img src="img/ivan.png" alt="" class="position-absolute ivan">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-6 col-md-10 offset-lg-1">
+                    <div class="col-lg-7 col-md-10 offset-lg-1">
                         <div class="cost-text">
                             <h2 class="section-title">
                                 И <span class="text-primary">сколько</span> мне это будет стоить?
@@ -652,16 +653,170 @@
                                 <li class="questions-list-item"><img src="img/gift.png" class="position-absolute questions-img" alt="">Ценность бонусов — $171</li>
                                 <li class="questions-list-item"><img src="img/usd.png" class="position-absolute questions-img" alt="">Ценность программы с бонусами — $959</li>
                             </ul>
-                        <!--<img src="img/logo-small.png" alt="" class="mt-3">-->
-                            <p class="before-price">Сейчас действует антикризисная цена</p>
-                            <div class="only-price">
-                                - всего $27
-                            </div>
-                            <p>Когда кризис закончится, мы вернем обычную цену.</p>
-                            <strong style="color: #ffffff;">Обычная цена $39.00</strong>
-                            <p style="margin-bottom: 30px;">Действуйте сейчас! <img src="img/arrow-down.png" alt="" class="ml-3"></p>
-                            <button class="primary-btn js-popup-open">Регистрация</button>
+                            <p class="before-price">Но сейчас действует специальное антикризисное предложение...</p>
                         </div>
+                    </div>
+                    <div class="col-xl-6 offset-xl-1">
+                        <table class="table-coach">
+                            <tbody>
+                                <tr>
+                                    <td class="table-coach-th">DEMO за $1</td>
+                                    <td class="table-coach-th">ПОЛНЫЙ ДОСТУП за $27</td>
+                                </tr>
+                                <tr>
+                                    <td class="table-coach-td">
+                                        <p class="table-coach-module mb-3">
+                                            Модуль 1:
+                                        </p>
+                                        <p class="table-coach-text">
+                                            «Неудержимый Я — Система
+                                            Реального Бизнес Мышления,
+                                            Которая Приносит Деньги» -
+                                            <span class="text-primary">ПРЯМОЙ ЭФИР</span>
+                                        </p>
+                                    </td>
+                                    <td class="table-coach-td">
+                                        <p class="table-coach-module mb-3">
+                                            Модуль 1:
+                                        </p>
+                                        <p class="table-coach-text">
+                                            «Неудержимый Я — Система
+                                            Реального Бизнес Мышления,
+                                            Которая Приносит Деньги» -
+                                            <span class="text-primary">ПРЯМОЙ ЭФИР</span>
+                                        </p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="table-coach-td"></td>
+                                    <td class="table-coach-td">
+                                        <p class="table-coach-module mb-3">
+                                            Модуль 2:
+                                        </p>
+                                        <p class="table-coach-text">
+                                            «Нейрогенезис — Процесс Изменения
+                                            Клеток Мозга Для Изменений
+                                            Бизнеса» - <span class="text-primary">ПРЯМОЙ ЭФИР + Запись</span>
+                                        </p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="table-coach-td"></td>
+                                    <td class="table-coach-td">
+                                        <p class="table-coach-module mb-3">
+                                            Модуль 3:
+                                        </p>
+                                        <p class="table-coach-text">
+                                            «Ракета. 27 Принципов Мышления
+                                            Для Контакта с Реальностью, Чтобы
+                                            Получать Желаемый Результат» -
+                                            <span class="text-primary">ПРЯМОЙ ЭФИР + Запись</span>
+                                        </p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="table-coach-td"></td>
+                                    <td class="table-coach-td">
+                                        <p class="table-coach-module mb-3">
+                                            Модуль 4:
+                                        </p>
+                                        <p class="table-coach-text">
+                                            «Система Успеха, Которая Всегда
+                                            Работает» - <span class="text-primary">ПРЯМОЙ ЭФИР + Запись</span>
+                                        </p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="table-coach-td"></td>
+                                    <td class="table-coach-td">
+                                        <p class="table-coach-module mb-3 text-uppercase">
+                                            1 групповой коучинг-звонок:
+                                        </p>
+                                        <p class="table-coach-text">
+                                            «Ответы на вопросы» (90 минут)
+                                        </p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="table-coach-td"></td>
+                                    <td class="table-coach-td">
+                                        <p class="table-coach-module mb-3">
+                                            Бонус 1:
+                                        </p>
+                                        <p class="table-coach-text">
+                                            <span class="text-primary">[Мастер-класс]</span> «План-Ивана:
+                                            Как За 5 лет сделать 7-ми значную цифру в $»
+                                        </p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="table-coach-td"></td>
+                                    <td class="table-coach-td">
+                                        <p class="table-coach-module mb-3">
+                                            Бонус 2:
+                                        </p>
+                                        <p class="table-coach-text">
+                                            <span class="text-primary d-block">Запись телекласса</span>
+                                            «Психология Денег»
+                                        </p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="table-coach-td"></td>
+                                    <td class="table-coach-td">
+                                        <p class="table-coach-module mb-3">
+                                            Бонус 3:
+                                        </p>
+                                        <p class="table-coach-text">
+                                            <span class="text-primary">Система</span>
+                                            «Сила Фокуса: 5 шагов
+                                            к притягиванию ДЕНЕГ с помощью
+                                            силы мышления»
+                                        </p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="table-coach-td"></td>
+                                    <td class="table-coach-td">
+                                        <p class="table-coach-module">
+                                            Возможность ВЫИГРАТЬ
+                                        </p>
+                                        <p class="table-coach-text">
+                                            <span class="text-primary"><strong>MacBook</strong></span>
+                                        </p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="table-coach-td table-coach-td-last">
+                                        <p class="table-coach-text">
+                                            Если есть сомнения - пройдите 1-й модуль и решите стоит ли идти дальше
+                                        </p>
+                                    </td>
+                                    <td class="table-coach-td table-coach-td-last">
+                                        <p class="table-coach-text">
+                                            Если готовы действовать - получите полный доступ к программе и всем дополнительным БОНУСАМ
+                                        </p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <button class="btn-demo-access">
+                                            Получить DEMO <br>
+                                            доступ за 1$
+                                        </button>
+                                    </td>
+                                    <td>
+                                        <button class="btn-full-access js-popup-open">
+                                            Получить полный <br>
+                                            доступ за $27
+                                        </button>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <p>Когда кризис закончится, мы вернем обычную цену.</p>
+                        <strong style="color: #ffffff;">Обычная цена $39</strong>
+                        <p class="action-now">Действуйте сейчас!</p>
                     </div>
                 </div>
             </div>
